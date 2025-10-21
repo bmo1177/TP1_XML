@@ -1,0 +1,268 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<bibliotheque>
+    <!-- Premier livre : Introduction au XML -->
+    <livre>
+        <titre>Introduction au Langage XML</titre>
+        
+        <auteurs>
+            <auteur>
+                <nom>Dupont</nom>
+                <prenom>Marie</prenom>
+            </auteur>
+            <auteur>
+                <nom>Martin</nom>
+                <prenom>Jean</prenom>
+            </auteur>
+        </auteurs>
+        
+        <section>
+            <titre>Les Fondamentaux du XML</titre>
+            
+            <chapitre>
+                <titre>Qu'est-ce que XML ?</titre>
+                
+                <paragraphe>
+                    XML signifie eXtensible Markup Language. C'est un langage de balisage 
+                    qui permet de structurer des données de manière hiérarchique et lisible 
+                    par les humains comme par les machines.
+                </paragraphe>
+                
+                <paragraphe>
+                    Créé en 1997 par le W3C, XML est dérivé de SGML mais beaucoup plus 
+                    simple à utiliser. Il est devenu un standard incontournable pour 
+                    l'échange de données entre systèmes hétérogènes.
+                </paragraphe>
+                
+                <paragraphe>
+                    Les documents XML sont constitués d'éléments délimités par des balises 
+                    ouvrantes et fermantes, permettant ainsi de représenter des structures 
+                    arborescentes complexes.
+                </paragraphe>
+            </chapitre>
+            
+            <chapitre>
+                <titre>Structure d'un Document XML</titre>
+                
+                <paragraphe>
+                    Un document XML bien formé doit respecter certaines règles syntaxiques 
+                    strictes. Chaque balise ouvrante doit avoir sa balise fermante 
+                    correspondante, et les éléments doivent être correctement imbriqués.
+                </paragraphe>
+                
+                <paragraphe>
+                    Le prologue XML, qui commence par &lt;?xml version="1.0"?&gt;, 
+                    est optionnel mais recommandé. Il indique la version XML utilisée 
+                    et l'encodage des caractères du document.
+                </paragraphe>
+            </chapitre>
+            
+            <chapitre>
+                <titre>Les Attributs XML</titre>
+                
+                <paragraphe>
+                    Les attributs XML permettent d'ajouter des informations supplémentaires 
+                    aux éléments. Ils sont définis dans la balise ouvrante et doivent 
+                    toujours être entre guillemets.
+                </paragraphe>
+                
+                <paragraphe>
+                    Il est important de choisir judicieusement entre l'utilisation d'un 
+                    attribut ou d'un élément enfant selon la nature de l'information 
+                    à représenter.
+                </paragraphe>
+            </chapitre>
+        </section>
+        
+        <section>
+            <titre>DTD et Validation</titre>
+            
+            <chapitre>
+                <titre>Introduction aux DTD</titre>
+                
+                <paragraphe>
+                    Une DTD (Document Type Definition) définit la structure et les règles 
+                    qu'un document XML doit respecter. Elle spécifie quels éléments peuvent 
+                    apparaître, dans quel ordre, et avec quels attributs.
+                </paragraphe>
+                
+                <paragraphe>
+                    Les DTD utilisent une syntaxe particulière héritée de SGML. Elles 
+                    permettent de valider la conformité d'un document XML à un modèle 
+                    prédéfini.
+                </paragraphe>
+            </chapitre>
+            
+            <chapitre>
+                <titre>Déclaration d'Éléments</titre>
+                
+                <paragraphe>
+                    La déclaration d'éléments dans une DTD utilise la syntaxe ELEMENT. 
+                    On peut spécifier si un élément contient du texte (PCDATA), d'autres 
+                    éléments, ou s'il est vide (EMPTY).
+                </paragraphe>
+                
+                <paragraphe>
+                    Les expressions régulières permettent de définir la cardinalité des 
+                    éléments enfants : * pour zéro ou plusieurs, + pour un ou plusieurs, 
+                    et ? pour zéro ou un.
+                </paragraphe>
+            </chapitre>
+        </section>
+        
+        <section>
+            <titre>Parseurs XML</titre>
+            
+            <chapitre>
+                <titre>Le Parseur DOM</titre>
+                
+                <paragraphe>
+                    DOM (Document Object Model) charge l'intégralité du document XML en 
+                    mémoire sous forme d'arbre. Cette approche permet un accès aléatoire 
+                    à tous les éléments du document et facilite les modifications.
+                </paragraphe>
+                
+                <paragraphe>
+                    L'inconvénient majeur de DOM est sa consommation mémoire importante, 
+                    particulièrement pour les documents volumineux. Il est donc préférable 
+                    de l'utiliser pour des fichiers de taille modérée.
+                </paragraphe>
+            </chapitre>
+            
+            <chapitre>
+                <titre>Le Parseur SAX</titre>
+                
+                <paragraphe>
+                    SAX (Simple API for XML) est un parseur événementiel qui lit le 
+                    document séquentiellement. Il déclenche des événements à chaque 
+                    élément rencontré, sans charger l'ensemble en mémoire.
+                </paragraphe>
+                
+                <paragraphe>
+                    SAX est particulièrement adapté aux gros fichiers XML et aux 
+                    traitements séquentiels. Son principal inconvénient est qu'il ne 
+                    permet pas de revenir en arrière dans le document.
+                </paragraphe>
+            </chapitre>
+        </section>
+    </livre>
+    
+    <!-- Deuxième livre : Programmation Java -->
+    <livre>
+        <titre>Java pour les Développeurs Modernes</titre>
+        
+        <auteurs>
+            <auteur>
+                <nom>Lefebvre</nom>
+                <prenom>Sophie</prenom>
+            </auteur>
+        </auteurs>
+        
+        <section>
+            <titre>Les Bases de Java</titre>
+            
+            <chapitre>
+                <titre>Introduction à Java</titre>
+                
+                <paragraphe>
+                    Java est un langage de programmation orienté objet créé par Sun 
+                    Microsystems en 1995. Sa philosophie "Write Once, Run Anywhere" 
+                    en fait un choix privilégié pour les applications multiplateformes.
+                </paragraphe>
+                
+                <paragraphe>
+                    La JVM (Java Virtual Machine) permet d'exécuter du bytecode Java 
+                    sur n'importe quel système d'exploitation disposant d'une implémentation 
+                    de la JVM, garantissant ainsi la portabilité du code.
+                </paragraphe>
+            </chapitre>
+            
+            <chapitre>
+                <titre>Les Types de Données</titre>
+                
+                <paragraphe>
+                    Java propose huit types primitifs : byte, short, int, long, float, 
+                    double, boolean et char. Ces types sont stockés directement en mémoire 
+                    et non sous forme d'objets.
+                </paragraphe>
+                
+                <paragraphe>
+                    Pour chaque type primitif, Java fournit une classe wrapper 
+                    correspondante (Integer, Double, Boolean, etc.) qui permet de 
+                    manipuler ces valeurs comme des objets.
+                </paragraphe>
+            </chapitre>
+        </section>
+        
+        <section>
+            <titre>Programmation Orientée Objet</titre>
+            
+            <chapitre>
+                <titre>Classes et Objets</titre>
+                
+                <paragraphe>
+                    Une classe est un modèle qui définit la structure et le comportement 
+                    des objets. Elle contient des attributs (variables d'instance) et 
+                    des méthodes (fonctions) qui opèrent sur ces attributs.
+                </paragraphe>
+                
+                <paragraphe>
+                    Un objet est une instance concrète d'une classe. Il possède son propre 
+                    état (valeurs des attributs) et peut interagir avec d'autres objets 
+                    via ses méthodes publiques.
+                </paragraphe>
+            </chapitre>
+            
+            <chapitre>
+                <titre>Héritage et Polymorphisme</titre>
+                
+                <paragraphe>
+                    L'héritage permet à une classe fille de réutiliser et d'étendre les 
+                    fonctionnalités d'une classe parent. Java ne supporte que l'héritage 
+                    simple, mais permet l'implémentation de multiples interfaces.
+                </paragraphe>
+                
+                <paragraphe>
+                    Le polymorphisme permet à un objet de prendre plusieurs formes. 
+                    Il se manifeste principalement par la redéfinition de méthodes 
+                    (override) et la surcharge de méthodes (overload).
+                </paragraphe>
+            </chapitre>
+        </section>
+        
+        <section>
+            <titre>Manipulation de Fichiers XML en Java</titre>
+            
+            <chapitre>
+                <titre>L'API DOM en Java</titre>
+                
+                <paragraphe>
+                    Java fournit l'API javax.xml.parsers pour travailler avec XML. 
+                    La classe DocumentBuilder permet de créer un parseur DOM qui charge 
+                    le document en créant une représentation arborescente en mémoire.
+                </paragraphe>
+                
+                <paragraphe>
+                    Une fois le document chargé, on peut naviguer dans l'arbre DOM en 
+                    utilisant des méthodes comme getElementsByTagName, getChildNodes, 
+                    ou getAttribute pour accéder aux différents éléments et attributs.
+                </paragraphe>
+            </chapitre>
+            
+            <chapitre>
+                <titre>L'API SAX en Java</titre>
+                
+                <paragraphe>
+                    L'API SAX repose sur un modèle de traitement événementiel. On crée 
+                    un handler en étendant DefaultHandler et en redéfinissant les méthodes 
+                    startElement, endElement et characters.
+                </paragraphe>
+                
+                <paragraphe>
+                    Le parseur SAX appelle ces méthodes automatiquement lors de la lecture 
+                    du document XML, permettant ainsi de traiter les données au fur et 
+                    à mesure sans les stocker intégralement en mémoire.
+                </paragraphe>
+            </chapitre>
+        </section>
+    </livre>
+</bibliotheque>

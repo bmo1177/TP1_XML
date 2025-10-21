@@ -1,0 +1,143 @@
+═══════════════════════════════════════════════════════════
+       LECTURE DU FICHIER XML AVEC PARSEUR DOM
+═══════════════════════════════════════════════════════════
+
+📚 Nombre de livres trouvés : 2
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+📖 LIVRE #1
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+📚 Titre : Introduction au Langage XML
+
+✍️  Auteurs :
+   • Marie Dupont
+   • Jean Martin
+
+📑 Nombre de sections : 3
+
+  ▶ Section 1 : Les Fondamentaux du XML
+    Nombre de chapitres : 3
+
+    📖 Chapitre 1 : Qu'est-ce que XML ?
+       Nombre de paragraphes : 3
+       Premier paragraphe (extrait) :
+       "XML signifie eXtensible Markup Language. C'est un langage de balisage 
+                    qui perme..."
+
+    📖 Chapitre 2 : Structure d'un Document XML
+       Nombre de paragraphes : 2
+       Premier paragraphe (extrait) :
+       "Un document XML bien formé doit respecter certaines règles syntaxiques 
+                    strictes..."
+
+    📖 Chapitre 3 : Les Attributs XML
+       Nombre de paragraphes : 2
+       Premier paragraphe (extrait) :
+       "Les attributs XML permettent d'ajouter des informations supplémentaires 
+                    aux élé..."
+
+  ▶ Section 2 : DTD et Validation
+    Nombre de chapitres : 2
+
+    📖 Chapitre 1 : Introduction aux DTD
+       Nombre de paragraphes : 2
+       Premier paragraphe (extrait) :
+       "Une DTD (Document Type Definition) définit la structure et les règles 
+                    qu'un doc..."
+
+    📖 Chapitre 2 : Déclaration d'Éléments
+       Nombre de paragraphes : 2
+       Premier paragraphe (extrait) :
+       "La déclaration d'éléments dans une DTD utilise la syntaxe ELEMENT. 
+                    On peut spéc..."
+
+  ▶ Section 3 : Parseurs XML
+    Nombre de chapitres : 2
+
+    📖 Chapitre 1 : Le Parseur DOM
+       Nombre de paragraphes : 2
+       Premier paragraphe (extrait) :
+       "DOM (Document Object Model) charge l'intégralité du document XML en 
+                    mémoire sou..."
+
+    📖 Chapitre 2 : Le Parseur SAX
+       Nombre de paragraphes : 2
+       Premier paragraphe (extrait) :
+       "SAX (Simple API for XML) est un parseur événementiel qui lit le 
+                    document séquen..."
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+📖 LIVRE #2
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+📚 Titre : Java pour les Développeurs Modernes
+
+✍️  Auteurs :
+   • Sophie Lefebvre
+
+📑 Nombre de sections : 3
+
+  ▶ Section 1 : Les Bases de Java
+    Nombre de chapitres : 2
+
+    📖 Chapitre 1 : Introduction à Java
+       Nombre de paragraphes : 2
+       Premier paragraphe (extrait) :
+       "Java est un langage de programmation orienté objet créé par Sun 
+                    Microsystems en..."
+
+    📖 Chapitre 2 : Les Types de Données
+       Nombre de paragraphes : 2
+       Premier paragraphe (extrait) :
+       "Java propose huit types primitifs : byte, short, int, long, float, 
+                    double, bool..."
+
+  ▶ Section 2 : Programmation Orientée Objet
+    Nombre de chapitres : 2
+
+    📖 Chapitre 1 : Classes et Objets
+       Nombre de paragraphes : 2
+       Premier paragraphe (extrait) :
+       "Une classe est un modèle qui définit la structure et le comportement 
+                    des objets..."
+
+    📖 Chapitre 2 : Héritage et Polymorphisme
+       Nombre de paragraphes : 2
+       Premier paragraphe (extrait) :
+       "L'héritage permet à une classe fille de réutiliser et d'étendre les 
+                    fonctionnal..."
+
+  ▶ Section 3 : Manipulation de Fichiers XML en Java
+    Nombre de chapitres : 2
+
+    📖 Chapitre 1 : L'API DOM en Java
+       Nombre de paragraphes : 2
+       Premier paragraphe (extrait) :
+       "Java fournit l'API javax.xml.parsers pour travailler avec XML. 
+                    La classe Docume..."
+
+    📖 Chapitre 2 : L'API SAX en Java
+       Nombre de paragraphes : 2
+       Premier paragraphe (extrait) :
+       "L'API SAX repose sur un modèle de traitement événementiel. On crée 
+                    un handler e..."
+
+
+═══════════════════════════════════════════════════════════
+          FIN DE LA LECTURE AVEC DOM
+═══════════════════════════════════════════════════════════
+
+📊 STATISTIQUES DU DOCUMENT XML
+─────────────────────────────────────────────────────────
+Total de livres                : 2
+Total d'auteurs                : 3
+Total de sections              : 6
+Total de chapitres             : 13
+Total de paragraphes           : 27
+
+Moy. sections/livre            : 3.00
+Moy. chapitres/livre           : 6.50
+Moy. paragraphes/livre         : 13.50
+Moy. chapitres/section         : 2.17
+─────────────────────────────────────────────────────────

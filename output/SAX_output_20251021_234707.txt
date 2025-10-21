@@ -1,0 +1,136 @@
+=================================================
+     LECTURE DU FICHIER XML AVEC PARSEUR SAX
+=================================================
+
+📄 Début de l'analyse du document XML...
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+LIVRE #1
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+📚 Titre : Introduction au Langage XML
+   - Marie Dupont
+   - Jean Martin
+
+✍️  Auteurs :
+
+  ▶ Section 1 : Les Fondamentaux du XML
+
+    📖 Chapitre 1 : Qu'est-ce que XML ?
+       Premier paragraphe (extrait) :
+       "XML signifie eXtensible Markup Language. C'est un langage de balisage 
+                    qui perme..."
+       Nombre de paragraphes : 3
+
+    📖 Chapitre 2 : Structure d'un Document XML
+       Premier paragraphe (extrait) :
+       "Un document XML bien formé doit respecter certaines règles syntaxiques 
+                    strictes..."
+       Nombre de paragraphes : 2
+
+    📖 Chapitre 3 : Les Attributs XML
+       Premier paragraphe (extrait) :
+       "Les attributs XML permettent d'ajouter des informations supplémentaires 
+                    aux élé..."
+       Nombre de paragraphes : 2
+
+  ▶ Section 2 : DTD et Validation
+
+    📖 Chapitre 1 : Introduction aux DTD
+       Premier paragraphe (extrait) :
+       "Une DTD (Document Type Definition) définit la structure et les règles 
+                    qu'un doc..."
+       Nombre de paragraphes : 2
+
+    📖 Chapitre 2 : Déclaration d'Éléments
+       Premier paragraphe (extrait) :
+       "La déclaration d'éléments dans une DTD utilise la syntaxe ELEMENT. 
+                    On peut spéc..."
+       Nombre de paragraphes : 2
+
+  ▶ Section 3 : Parseurs XML
+
+    📖 Chapitre 1 : Le Parseur DOM
+       Premier paragraphe (extrait) :
+       "DOM (Document Object Model) charge l'intégralité du document XML en 
+                    mémoire sou..."
+       Nombre de paragraphes : 2
+
+    📖 Chapitre 2 : Le Parseur SAX
+       Premier paragraphe (extrait) :
+       "SAX (Simple API for XML) est un parseur événementiel qui lit le 
+                    document séquen..."
+       Nombre de paragraphes : 2
+
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+LIVRE #2
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+📚 Titre : Java pour les Développeurs Modernes
+   - Sophie Lefebvre
+
+✍️  Auteurs :
+
+  ▶ Section 1 : Les Bases de Java
+
+    📖 Chapitre 1 : Introduction à Java
+       Premier paragraphe (extrait) :
+       "Java est un langage de programmation orienté objet créé par Sun 
+                    Microsystems en..."
+       Nombre de paragraphes : 2
+
+    📖 Chapitre 2 : Les Types de Données
+       Premier paragraphe (extrait) :
+       "Java propose huit types primitifs : byte, short, int, long, float, 
+                    double, bool..."
+       Nombre de paragraphes : 2
+
+  ▶ Section 2 : Programmation Orientée Objet
+
+    📖 Chapitre 1 : Classes et Objets
+       Premier paragraphe (extrait) :
+       "Une classe est un modèle qui définit la structure et le comportement 
+                    des objets..."
+       Nombre de paragraphes : 2
+
+    📖 Chapitre 2 : Héritage et Polymorphisme
+       Premier paragraphe (extrait) :
+       "L'héritage permet à une classe fille de réutiliser et d'étendre les 
+                    fonctionnal..."
+       Nombre de paragraphes : 2
+
+  ▶ Section 3 : Manipulation de Fichiers XML en Java
+
+    📖 Chapitre 1 : L'API DOM en Java
+       Premier paragraphe (extrait) :
+       "Java fournit l'API javax.xml.parsers pour travailler avec XML. 
+                    La classe Docume..."
+       Nombre de paragraphes : 2
+
+    📖 Chapitre 2 : L'API SAX en Java
+       Premier paragraphe (extrait) :
+       "L'API SAX repose sur un modèle de traitement événementiel. On crée 
+                    un handler e..."
+       Nombre de paragraphes : 2
+
+
+
+✅ Fin de l'analyse du document XML.
+
+=================================================
+        FIN DE LA LECTURE AVEC SAX
+=================================================
+
+📊 STATISTIQUES DU DOCUMENT XML
+─────────────────────────────────────────────────
+Total de livres      : 2
+Total d'auteurs      : 3
+Total de sections    : 6
+Total de chapitres   : 13
+Total de paragraphes : 27
+
+Moyenne de sections par livre    : 3.00
+Moyenne de chapitres par livre   : 6.50
+Moyenne de paragraphes par livre : 13.50
+─────────────────────────────────────────────────
